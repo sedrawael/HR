@@ -1,0 +1,49 @@
+INSERT INTO location
+VALUES (1, 'New York', 'TechCorp'),
+(2, 'San Francisco', 'InnovateX'),
+(3, 'London', 'GlobalTech'),
+(4, 'Berlin', 'FutureWorks')
+
+
+
+
+
+
+INSERT INTO department
+VALUES (1, 'Management','sedrh'),
+(2, 'Human Resources','rawand'),
+(3, 'Information Technology','sarh'),
+(4, 'Finance','waem');
+
+
+
+.INSERT INTO projects
+VALUES (1, 'Website Redesign', '2023-01-15', '2023-03-30'),
+(2, 'Mobile App Development', '2023-02-01', '2023-05-15'),
+(3, 'Data Migration', '2023-03-10', '2023-04-20'),
+(4, 'Marketing Campaign', '2023-04-01', '2023-06-30');
+
+
+
+UPDATE department
+SET `name` = 'rana'
+WHERE department_id = 2;
+
+
+
+UPDATE location 
+SET country = 'SAUDI'
+WHERE location_id = 1;
+
+
+
+DELETE FROM projects
+WHERE 'location_ID' = 1;
+
+
+
+
+
+
+
+
